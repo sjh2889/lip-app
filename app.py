@@ -7,10 +7,7 @@ st.set_page_config(page_title="모두를 위한 립 추천기", page_icon="💄"
 race_list = ["Asian", "Black", "White", "Hispanic"]
 age_list = ["10~20대", "3~40대", "50~60대", "over70"]
 notice_list = [
-    "💡 이 결과는 정답이 아닙니다.",
-    "✨ 이 결과는 정답이 아닙니다. 당신이 원하는 색이 곧 정답입니다!",
-    "🌈 이 결과는 정답이 아닙니다. 나이와 피부색에 얽매이지 말고 자유롭게 시도해 보세요!"
-]
+    "💡 이 결과는 정답이 아닙니다."]
 
 # 3. 함수(Function) + 조건문(if-elif-else) 활용: [컬러, 제형, 색상코드, 추천이유] 반환
 def recommend_lip(selected_race, selected_age):
