@@ -67,7 +67,6 @@ st.write("")
 
 # 6. 분석 버튼 클릭 시 실행
 if st.button("✨ 맞춤 립 분석하기", use_container_width=True, type="primary"):
-    st.balloons()  # 축하 풍선 효과
     st.divider()
     
     # 함수 호출하여 결과 리스트 받아오기
@@ -98,7 +97,7 @@ if st.button("✨ 맞춤 립 분석하기", use_container_width=True, type="prim
     """, unsafe_allow_html=True)
     
     # 다양성과 포용의 마지막 멘트
-    st.markdown(f"### 💖 *{age}와 {race}에 상괸없이 당신은 있는 그대로 언제나 아름답습니다.*")
+    st.markdown(f"### 💖 *{age}를 지나는 {race}인 당신은 언제나 아름답습니다.*")
     st.divider()
 
     # 7. 반복문(for) 활용: "이 결과는 정답이 아닙니다" 메시지 반복 출력
